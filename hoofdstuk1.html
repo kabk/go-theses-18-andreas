@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hoofdstuk 1</title>
+	<script src="js/jquery-3.2.1.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div id="thesis_titel"><h2><a href="THESIS ANDREAS.pdf" download>SHOPPING BAG</a></h2></div>
+	<div id="thesis_titel"><h3>MEN</h3></a></div>
+	<div id="thesis_titel"><a href="index.html"><h1>DONATELLA VERSACE IS A STAGE DESIGNER</h1></a></div>
+
+
+<!-- Afbeeldingen -->
+<div id="afbeelding1"><img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Thomas_Cole_The_Garden_of_Eden_Amon_Carter_Museum.jpg" /></div>
+
+	<div class="hoofdstukAfbeelding">
+		<a><img src="images/0_0.jpg"></a>
+	</div>
+
+	
+	<p>
+Als klein kind presenteerde ik mezelf ouder, op de manier hoe ik kleding droeg. <a id="link1">Thomas Cole</a> Van jongs af aan was ik al geïnspireerd door modeshows en vormde ik al een bepaalde aantrekkingskracht tot kleding. De muziek, de mensen, eigenlijk de gehele atmosfeer.<br><br>
+
+Vorig jaar herfst was ik zelfs ooggetuige van de modeshow Jacquemus, tijdens de Paris Fashion Week. Het was zo groot en indrukwekkend dat ik zelfs de tintelingen ervan kreeg.<br><br>
+
+Kleding vind ik erg inspirerend omdat de manier hoe je naar kleding kijkt  jouw smaak hierdoor wordt getoond. Kleding is ook wel het uniform die jou cultuur weergeeft en waar je mee verbonden bent. Daarnaast laat kleding zien hoe jij je voelt en wat jou interesseert in het leven.<br><br>
+	</p>
+	</div>
+
+	<img id="the-img" class="hidden" alt="Smiley face" src="images/images-content/Bomberjack.jpg">
+
+
+<script>
+	$(window).on('load', function() {
+		
+
+		//  $("#link1").click(function() {
+		//  	$("#the-img").removeClass('hidden')
+	  		
+		// });
+
+		//   $("#the-img").click(function() {
+		//  	$("#the-img").addClass('hidden')
+	  		
+		// });
+
+
+		  $("#link1").hover(function() {
+		 	$("#the-img").toggleClass('hidden')
+	  		
+		});
+
+	});
+	
+	</script>
+</body>
+</html>
