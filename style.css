@@ -353,6 +353,21 @@ a {
 
 }
 
+#printImg{
+	display: none;
+}
+
 /*a:hover + #afbeelding1 {
     display: block;
 }*/
+
+
+@media print {
+	#printImg{
+		display: initial;
+	}
+
+	#printImg img{
+		width: 100%;
+	}
+}
